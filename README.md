@@ -28,3 +28,4 @@ conda env create -f environment.yml
 conda activate salmon-rnaseq
 ```
 
+[![DOI](https://zenodo.org/badge/1069523566.svg)](https://doi.org/10.5281/zenodo.17337967)
