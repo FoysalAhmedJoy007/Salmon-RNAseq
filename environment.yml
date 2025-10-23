@@ -5,9 +5,10 @@ channels:
   - defaults
 
 dependencies:
-  # Core tools
-  - fastq-dl         # Download FASTQ files from SRA or ENA repositories.
-  - salmon           # transcript quantification
-  - fastqc           # optional QC
-  - multiqc          # summary reports
-  
+  - python=3.11        # ✅ pin Python to 3.11 (fastq-dl compatible)
+  - fastq-dl           # download FASTQ files from SRA/ENA
+  - salmon             # transcript quantification
+  - fastqc             # optional QC
+  - multiqc            # summary reports
+
+
